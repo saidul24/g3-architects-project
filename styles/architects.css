@@ -271,9 +271,26 @@
 
         .ten-years-badge{
             position: static;
-            max-width: 300px;
+            max-width: 150px;
             margin: 0 auto;
+            padding: 10px 1px;
         }
+
+        .ten-years-badge h3{
+            font-size: 1rem;
+            margin: 2px 2px;
+        }
+
+        .ten-years-badge p{
+            font-size: .5rem;
+            margin: 2px 2px;
+        }
+
+        .facts-card-container{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    
         
     }
 
