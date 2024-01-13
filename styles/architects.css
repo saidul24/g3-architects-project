@@ -146,11 +146,25 @@
         font-size: 1.25rem;
         margin-top: 5px;
     }
-
-
-
-    
     /* Facts section end */
+
+    /* Sponsors section start */
+    .sponsors{
+        text-align: center;
+    }
+
+    .sponsors-img-container{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .sponsors-img-container img{
+        width: 165px;
+    }
+    /* Sponsors section end */
 
 
 
@@ -170,7 +184,8 @@
 
         nav, 
         .teams-container,
-        .facts-card-container
+        .facts-card-container,
+        .sponsors-img-container
         {
             flex-direction: column;
         }
@@ -188,12 +203,15 @@
         .facts-card-container{
             gap: 20px;
         }
+
+        
     }
 
     /* Tablet or medium Device min:576px -- max: 960px  */
     @media screen and (min-width: 576px) and (max-width: 960px) {
         nav,
-        .teams-container
+        .teams-container,
+        .sponsors-img-container
         {
             flex-direction: column;
         }
