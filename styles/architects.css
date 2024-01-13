@@ -121,6 +121,57 @@
     }
     /* Teams container end */
 
+    /* Features section starts */
+    .features{
+        display: flex;
+        margin-top: 130px;
+        gap: 120px;
+    }
+
+    .feature-content .card{
+        margin-bottom: 20px;
+        padding: 30px;
+        border-radius: 8px;
+        background: #FFF;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    }
+
+    .features .section-title{
+        border-left: 5px solid #FF900E;
+        padding-left: 20px;
+    }
+
+    .ten-years-badge{
+        border-radius: 8px;
+        background: #FF900E;
+        color: #fff;
+        width: 342px;
+        padding: 40px;
+        text-align: center;
+        position: relative;
+        bottom: 100px;
+    }
+
+    .ten-years-badge h3{
+        font-size: 4rem;
+        margin: 0;
+    }
+
+    .ten-years-badge p{
+        font-size: 1.5rem;
+    }
+
+    .feature-img img{
+        height: 90%;
+        margin-left: 60px;
+    }
+
+
+
+
+
+    /* Features section end */
+
     /* Facts section start */
     .facts-card-container{
         display: flex;
@@ -166,12 +217,20 @@
     }
     /* Sponsors section end */
 
+    /* footer styles */
+    .footer{
+        max-width: 1440px;
+        border-radius: 8px;
+        background: #FFF4E7;
+    }
 
-
-
-
-
-
+    .footer h4{
+        color: #424242;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 400;
+        padding: 20px 5px;
+    }
 
 
     /* Responsive design*/
@@ -185,7 +244,8 @@
         nav, 
         .teams-container,
         .facts-card-container,
-        .sponsors-img-container
+        .sponsors-img-container,
+        .features
         {
             flex-direction: column;
         }
@@ -204,12 +264,23 @@
             gap: 20px;
         }
 
+        .feature-img img{
+            width: 90%;
+            margin-left: 20px;
+        }
+
+        .ten-years-badge{
+            position: static;
+            max-width: 300px;
+            margin: 0 auto;
+        }
         
     }
 
     /* Tablet or medium Device min:576px -- max: 960px  */
     @media screen and (min-width: 576px) and (max-width: 960px) {
         nav,
+        .features,
         .teams-container,
         .sponsors-img-container
         {
