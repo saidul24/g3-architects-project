@@ -291,6 +291,13 @@
             grid-template-columns: repeat(2, 1fr);
         }
     
+        .facts-card-container .card{
+            border-radius: 8px;
+            border: 1px solid #FF900E;
+            padding: 20px 0;
+            width: 11.5rem;
+
+        }
         
     }
 
